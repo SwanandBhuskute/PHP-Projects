@@ -1,0 +1,100 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and font family to the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container h1 {
+    padding: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Style the input-todo */
+.input-todo {
+    background-color: #ffffff;
+    width: 455px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button.btn-add{
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+button.btn-dlt {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the todo items */
+.showtodo {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    width: 475px;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Responsive styles
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 40%;
+        padding: 10px;
+    }
+} */
