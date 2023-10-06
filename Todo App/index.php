@@ -4,7 +4,6 @@
         $json = file_get_contents('Todo.json');
         $todos = json_decode($json, true); 
     }
-
 ?>
 
 
