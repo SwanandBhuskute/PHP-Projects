@@ -28,8 +28,8 @@ body {
     background-color: #ffffff;
     width: 455px;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.1);
 }
 
 /* Style the form */
@@ -55,7 +55,7 @@ button.btn-add{
     color: #fff;
     padding: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -66,7 +66,7 @@ button:hover {
 button.btn-dlt {
     background-color: red;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -75,7 +75,7 @@ button.btn-dlt {
     background-color: #ffffff;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 4px;
     margin: auto;
     margin-top: 20px;
     width: 475px;
